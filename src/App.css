@@ -1,0 +1,89 @@
+.App {
+  text-align: center;
+}
+
+.App-header {
+  background-color: #18181a;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+  font-family: monospace;
+}
+
+h1 {
+  font-size: 80px;
+  font-family: monospace;
+}
+
+.button {
+  background-color: #5959e0;
+  color: whitesmoke;
+  border: none;
+  height: 3rem;
+  width: 26.5rem;
+  border-radius: 5px;
+  font-family: monospace;
+  font-weight: 500;
+  font-size: 20px;
+}
+
+#image {
+  height: 150px;
+  width: 150px;
+  border-radius: 100px;
+  background-size: contain;
+  background-image: url('https://pbs.twimg.com/profile_images/1612712122961563649/YBse5F9Q_400x400.jpg')
+}
+
+span {
+  font-family: monospace;
+}
+
+.apresenation {
+  border: 2px solid red;
+  font-size: 23px;
+  width: 20rem;
+  padding: 10px 50px 10px 50px;
+  background-color: #1d1d20;
+  border: 1px solid #343439;
+  border-radius: 5px;
+  margin-bottom: 0.3rem;
+}
+
+.MainName {
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+  font-size: 35px;
+  font-family: monospace;
+  font-weight: 900;
+}
+
+@media only screen and (max-width: 600px) {
+  .apresenation {
+    border: 2px solid red;
+    font-size: 23px;
+    width: 15rem;
+    padding: 10px 60px 10px 60px;
+    background-color: #201d20;
+    border: 1px solid #343439;
+    border-radius: 5px;
+    margin-bottom: 0.3rem;
+  }
+
+  .button {
+    background-color: #5959e0;
+    color: whitesmoke;
+    border: none;
+    height: 3rem;
+    width: 22.5rem;
+    border-radius: 5px;
+    font-family: monospace;
+    font-weight: 500;
+    font-size: 20px;
+    outline: none;
+  }
+}
